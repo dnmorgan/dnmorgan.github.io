@@ -1,3 +1,4 @@
+#Brand assignment using python Example 1. Using least-fill method of assigning brands to survey respondents. 
 
 #Brand 1 object
 [chosen_brand_1 if 0] {single} Brand 1
@@ -20,8 +21,6 @@
  <6> Brand 6
  <7> Brand 7
  <8> Brand 8
-
-{module brands_mod if media_aware.has_any([1,2,3,4,5,6,7,8])}
 
 {page least_fill_setup}
 {
@@ -93,7 +92,8 @@ for i in brand_picks:
 }
 {end page counter_increment_page}
 
-
+#Example 2 of using python for brand assignment. This method uses a dictionary and random assignment to have the
+#end-product of variables be strings.
 
 {page setup_page}
 {
